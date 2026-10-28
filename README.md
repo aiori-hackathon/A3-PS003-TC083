@@ -5,6 +5,12 @@ This repository will contain the code and resources for the AIORI-3 hackathon th
 https://youtu.be/ed6vltzb-A8
 please watch with subtitles 
 
+# HOW TO RUN 
+pip install streamlit pandas numpy torch matplotlib
+python -m streamlit run app.py
+ or for a quicker approach
+python main.py --data PEMS08.npz  (replace PEMS08 with any dataset) 
+
 # BRIEF DESCRIPTION 
 Our problem is PS-003: Federated Traffic-Flow Prediction with Communication-Cost Evaluation.
 
