@@ -6,10 +6,18 @@ https://youtu.be/ed6vltzb-A8
 please watch with subtitles 
 
 # HOW TO RUN 
+```bash
 pip install streamlit pandas numpy torch matplotlib
 python -m streamlit run app.py
- or for a quicker approach
-python main.py --data PEMS08.npz  (replace PEMS08 with any dataset) 
+```
+
+Or, for a quicker approach:
+
+```bash
+python main.py --data PEMS08.npz
+```
+
+Replace `PEMS08.npz` with your dataset.
 
 # BRIEF DESCRIPTION 
 Our problem is PS-003: Federated Traffic-Flow Prediction with Communication-Cost Evaluation.
